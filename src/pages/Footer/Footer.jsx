@@ -59,16 +59,16 @@ export default function Footer() {
               <h4 className={styles.sectionTitle}>RESOURCES</h4>
               <ul>
                 <li>
-                  <a href="#">Press Center</a>
+                  <a href="#">EXEMPLU</a>
                 </li>
                 <li>
-                  <a href="#">Press Center</a>
+                  <a href="#">EXEMPLU</a>
                 </li>
                 <li>
-                  <a href="#">Press Center</a>
+                  <a href="#">EXEMPLU</a>
                 </li>
                 <li>
-                  <a href="#">Press Center</a>
+                  <a href="#">EXEMPLU</a>
                 </li>
               </ul>
             </div>
@@ -85,20 +85,17 @@ export default function Footer() {
         </div>
 
         <div className={styles.socials}>
-          <GiButterfly />
           <FaFacebookF />
           <FaInstagram />
           <FaLinkedinIn />
-          <FaSpotify />
           <FaTiktok />
           <FaYoutube />
         </div>
 
         <p className={styles.copyright}>
-          © 2018 - 2025 SXSW, LLC. SXSW®, SXSW EDU®, and South by Southwest® are
-          trademarks owned by SXSW, LLC. Any unauthorized use of these names, or
-          variations of these names, is a violation of state, federal, and
-          international trademark laws.
+          © 2005 - 2025 Grupul CONEXIUNI. Toate drepturile rezervate. LASERE
+          CONEXIUNI® este marcă înregistrată. Orice utilizare neautorizată este
+          interzisă prin lege.
         </p>
 
         <div className={styles.bottomLinks}>

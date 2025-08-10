@@ -9,6 +9,16 @@
   justify-content: flex-start;
   padding: 40px 40px 120px 40px;
   box-sizing: border-box;
+  animation: backgroundMove 30s linear infinite alternate;
+}
+
+@keyframes backgroundMove {
+  0% {
+    background-position: center top;
+  }
+  100% {
+    background-position: center bottom;
+  }
 }
 
 .overlay {

@@ -11,8 +11,8 @@ export default function HighlightsSection() {
         {/* Card 1 */}
         <div className={`${styles.card} ${styles.yellowCard}`}>
           <div className={styles.textArea}>
-            <h3>SXSW INNOVATION AWARDS</h3>
-            <button>MEET PAST WINNERS</button>
+            <h3>LASERE CONEXIUNI 2025</h3>
+            <button>SPECTACOLE ȘI PROIECȚII LASER INOVATOARE</button>
           </div>
           <div className={styles.imageWrapper}>
             <img src={innovationImg} alt="SXSW Innovation Awards" />
@@ -22,8 +22,8 @@ export default function HighlightsSection() {
         {/* Card 2 */}
         <div className={`${styles.card} ${styles.purpleCard}`}>
           <div className={styles.textArea}>
-            <h3>SXSW 2025 PERFORMANCES FROM THE RADIO DAY STAGE</h3>
-            <button>SXSW REWIND</button>
+            <h3>LASERE CONEXIUNI 2025</h3>
+            <button>SPECTACOLE ȘI PROIECȚII LASER INOVATOARE</button>
           </div>
           <div className={styles.imageWrapper}>
             <img src={performanceImg} alt="SXSW 2025 Performances" />

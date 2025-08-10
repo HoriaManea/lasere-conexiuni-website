@@ -6,8 +6,10 @@ export default function HeroSection() {
     <section className={styles.hero}>
       <div className={styles.overlay}></div>
       <div className={styles.content}>
-        <h1>PANELPICKER COMMUNITY VOTING IS NOW OPEN</h1>
-        <button className={styles.cta}>VOTE ON YOUR FAVORITE SESSIONS</button>
+        <h1>Rezervă Spectacolul Tău Laser 2025</h1>
+        <button className={styles.cta}>
+          DESCOPERĂ MAGIA LASERELOR CONEXIUNI
+        </button>
       </div>
     </section>
   );
