@@ -9,10 +9,14 @@ import Evenimente from "./pages/Evenimente/Evenimente";
 import Blog from "./pages/Blog/Blog";
 import Echipa from "./pages/Echipa/Echipa";
 import Contact from "./pages/Contact/Contact";
+import LaserCursor from "../src/components/Cursor/LaserCursor";
+import DeleteEffect from "../src/components/DeleteEffect/DeleteEffect";
 
 function App() {
   return (
     <BrowserRouter>
+      <LaserCursor />
+      <DeleteEffect />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
