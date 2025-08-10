@@ -78,7 +78,7 @@
 }
 
 .innovation {
-  background: url("../../assets/pexels-thisisengineering-3912479.jpg")
+  background: url("../../assets/pexels-thisisengineering-3912479.webp")
     center/cover no-repeat;
 }
 .innovation .overlay {
@@ -86,7 +86,7 @@
 }
 
 .music {
-  background: url("../../assets/pexels-heyraiph-29488957.jpg") center/cover
+  background: url("../../assets/pexels-heyraiph-29488957.webp") center/cover
     no-repeat;
 }
 .music .overlay {
@@ -94,7 +94,8 @@
 }
 
 .film {
-  background: url("../../assets/pexels-rdne-7020687.jpg") center/cover no-repeat;
+  background: url("../../assets/pexels-rdne-7020687.webp") center/cover
+    no-repeat;
 }
 .film .overlay {
   background: rgba(108, 198, 215, 0.85);

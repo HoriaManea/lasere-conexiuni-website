@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./HighlightsSection.module.css";
-import innovationImg from "../../assets/Gaming-Awards-2019-Photo-by-Shannon-Johnston.jpeg"; // înlocuiește cu imaginea reală
-import performanceImg from "../../assets/Gaming-Awards-2019-Photo-by-Shannon-Johnston.jpeg"; // înlocuiește cu imaginea reală
+import innovationImg from "../../assets/Gaming-Awards-2019-Photo-by-Shannon-Johnston.webp"; // înlocuiește cu imaginea reală
+import performanceImg from "../../assets/Gaming-Awards-2019-Photo-by-Shannon-Johnston.webp"; // înlocuiește cu imaginea reală
 
 export default function HighlightsSection() {
   return (

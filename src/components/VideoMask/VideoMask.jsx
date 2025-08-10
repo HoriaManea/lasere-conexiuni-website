@@ -1,16 +1,12 @@
 import React from "react";
 import styles from "./VideoMask.module.css";
-import videoSrc from "./video.mp4"; // schimbă cu calea reală a fișierului video
+import LazyVideo from "./LazyVideo";
 
 const VideoMask = () => {
   return (
     <div className={styles.heroSection}>
-      {/* Video-ul */}
-      <video autoPlay muted loop playsInline className={styles.video}>
-        <source src={videoSrc} type="video/mp4" />
-      </video>
+      <LazyVideo />
 
-      {/* Masca fluorescentă */}
       <svg
         className={styles.mask}
         viewBox="0 0 1920 1080"

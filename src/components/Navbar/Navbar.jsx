@@ -7,6 +7,7 @@ import {
   FaInstagram,
   FaLinkedinIn,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -16,7 +17,9 @@ export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.container}>
-        <div className={styles.logo}>L Conex</div>
+        <Link className={styles.logo} to="/">
+          L Conex
+        </Link>
 
         <button
           className={styles.menuToggle}
@@ -29,30 +32,39 @@ export default function Navbar() {
 
         <ul className={`${styles.navLinks} ${menuOpen ? styles.active : ""}`}>
           <li>
-            <a href="#">Despre Noi</a>
+            <Link to="/desprenoi">Despre Noi </Link>
           </li>
           <li>
-            <a href="#">Evenimente</a>
+            <Link to="/evenimente">Evenimente</Link>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <Link to="/blog">Blog</Link>
           </li>
           <li>
-            <a href="#">Echipa</a>
+            <Link to="/echipa">Echipa</Link>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
 
         <div className={styles.socials}>
-          <a href="#" aria-label="Facebook">
+          <a
+            href="https://www.facebook.com/profile.php?id=61553925385272"
+            aria-label="Facebook"
+          >
             <FaFacebookF />
           </a>
-          <a href="#" aria-label="Instagram">
+          <a
+            href="https://www.instagram.com/lasereconexiuni/"
+            aria-label="Instagram"
+          >
             <FaInstagram />
           </a>
-          <a href="#" aria-label="LinkedIn">
+          <a
+            href="https://www.linkedin.com/company/lasere-conexinui/posts/?feedView=all"
+            aria-label="LinkedIn"
+          >
             <FaLinkedinIn />
           </a>
         </div>

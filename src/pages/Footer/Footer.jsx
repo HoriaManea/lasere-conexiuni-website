@@ -85,11 +85,24 @@ export default function Footer() {
         </div>
 
         <div className={styles.socials}>
-          <FaFacebookF />
-          <FaInstagram />
-          <FaLinkedinIn />
-          <FaTiktok />
-          <FaYoutube />
+          <a
+            href="https://www.facebook.com/profile.php?id=61553925385272"
+            aria-label="Facebook"
+          >
+            <FaFacebookF />
+          </a>
+          <a
+            href="https://www.instagram.com/lasereconexiuni/"
+            aria-label="Instagram"
+          >
+            <FaInstagram />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/lasere-conexinui/posts/?feedView=all"
+            aria-label="LinkedIn"
+          >
+            <FaLinkedinIn />
+          </a>
         </div>
 
         <p className={styles.copyright}>
