@@ -1,0 +1,49 @@
+.heroSection {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #e0ff66; /* fundal fluorescent */
+  overflow: hidden;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+@media (max-width: 768px) {
+  .heroSection {
+    height: 100vh; /* păstrează înălțimea pe tot ecranul */
+    max-height: 600px; /* limitează înălțimea ca să nu fie prea mare */
+  }
+
+  .video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    min-width: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+  }
+
+  .mask {
+    width: 100%;
+    height: 100%;
+  }
+}

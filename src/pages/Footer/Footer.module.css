@@ -1,0 +1,150 @@
+.footer {
+  background-color: #000;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.linksSection {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.sectionTitle {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.linksSection li {
+  margin-bottom: 8px;
+}
+
+.newsletter {
+  max-width: 300px;
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  border-bottom: 1px solid white;
+}
+
+.inputWrapper input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: white;
+  padding: 5px;
+  outline: none;
+}
+
+.inputWrapper button {
+  background: transparent;
+  color: white;
+  border: none;
+}
+
+.newsletter a {
+  text-decoration: underline;
+}
+
+.socials {
+  display: flex;
+  gap: 15px;
+  font-size: 22px;
+  margin-top: 40px;
+}
+
+.bottomLinks {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.copyright {
+  font-size: 12px;
+  color: #ccc;
+  margin-top: 20px;
+}
+
+/* 📱 Responsive - Mobile */
+@media (max-width: 768px) {
+  .top {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .logo {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .linksSection {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .linksSection ul {
+    text-align: center;
+  }
+
+  .newsletter {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .inputWrapper {
+    justify-content: center;
+  }
+
+  .socials {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .bottomLinks {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+}
+
+/* 📱 Extra small devices */
+@media (max-width: 480px) {
+  .logo {
+    font-size: 32px;
+  }
+
+  .sectionTitle {
+    font-size: 11px;
+  }
+
+  .bottomLinks {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

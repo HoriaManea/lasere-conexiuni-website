@@ -1,0 +1,142 @@
+.badgeSection {
+  padding: 60px 40px;
+  text-align: center;
+  background: #fff;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  color: black;
+}
+
+.header h2 {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.notifyBtn {
+  background: #f4f4f4;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.notifyBtn:hover {
+  background: #e5e5e5;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  position: relative;
+  height: 350px;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-end;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px;
+  z-index: 2;
+  color: white;
+}
+
+.cardText {
+  position: relative;
+  z-index: 3;
+  padding: 20px;
+}
+
+.small {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.card h3 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 5px;
+}
+
+.innovation {
+  background: url("../../assets/pexels-thisisengineering-3912479.jpg")
+    center/cover no-repeat;
+}
+.innovation .overlay {
+  background: rgba(218, 84, 103, 0.85);
+}
+
+.music {
+  background: url("../../assets/pexels-heyraiph-29488957.jpg") center/cover
+    no-repeat;
+}
+.music .overlay {
+  background: rgba(142, 230, 158, 0.85);
+}
+
+.film {
+  background: url("../../assets/pexels-rdne-7020687.jpg") center/cover no-repeat;
+}
+.film .overlay {
+  background: rgba(108, 198, 215, 0.85);
+}
+/* Media query pentru ecrane mici (telefoane) */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .header h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .notifyBtn {
+    width: 100%;
+    max-width: 320px;
+    padding: 12px 0;
+  }
+
+  .cards {
+    grid-template-columns: 1fr; /* o singură coloană pe ecrane mici */
+    gap: 15px;
+  }
+
+  .card {
+    height: 280px; /* ajustăm puțin înălțimea */
+    border-radius: 12px;
+  }
+
+  .cardText {
+    padding: 15px;
+  }
+
+  .small {
+    font-size: 11px;
+  }
+
+  .card h3 {
+    font-size: 18px;
+  }
+}
